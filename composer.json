@@ -1,0 +1,33 @@
+{
+    "name": "blahtesoftware/betmath",
+    "type": "project",
+    "description": "Betting math",
+    "keywords": ["betting, football"],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Alois Odhiambo",
+            "email": "rayalois22@gmail.com",
+            "homepage": "https://github.com/rayalois22",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "hello@blahte.software"
+    },
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BlahteSoftware\\BetMath\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
