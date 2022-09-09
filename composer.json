@@ -1,8 +1,8 @@
 {
     "name": "blahtesoftware/betmath",
-    "type": "project",
+    "type": "library",
     "description": "Betting math",
-    "keywords": ["betting, football"],
+    "keywords": ["betting", "football"],
     "license": "proprietary",
     "authors": [
         {
